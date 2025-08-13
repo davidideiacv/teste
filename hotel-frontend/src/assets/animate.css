@@ -1,0 +1,21 @@
+/* animate.css - versão reduzida para uso local */
+
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes animate__fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate__fadeInDown {
+  animation-name: animate__fadeInDown;
+}
